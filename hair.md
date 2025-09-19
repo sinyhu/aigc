@@ -8,5 +8,6 @@ cd /mnt/datadisk/workspace/photo_service && conda activate py310 && CUDA_VISIBLE
 
 ## 启动webui的服务器
 cd /mnt/datadisk/workspace/onediff/stable-diffusion-webui && conda activate onediff &&CUDA_VISIBLE_DEVICES=1 ./webui.sh --api --listen --disable-safe-unpickle --port 57860
+
 cd /mnt/datadisk/workspace/onediff/stable-diffusion-webui && conda activate onediff && CUDA_VISIBLE_DEVICES=0 ./webui.sh --api --listen --disable-safe-unpickle --port 57861
 
